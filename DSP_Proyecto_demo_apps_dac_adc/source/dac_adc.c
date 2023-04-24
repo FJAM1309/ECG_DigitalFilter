@@ -142,8 +142,6 @@ SampleFilter ECG_filter;
 
 int main(void)
 {
-    uint8_t msg = ' ';
-
     BOARD_InitPins();
     BOARD_BootClockRUN();
     BOARD_InitDebugConsole();
